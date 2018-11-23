@@ -1,0 +1,1 @@
+select owner, table_name, 'select * from system.'||table_name||';' select_all_from from dba_tables where table_name like '%IMM%';

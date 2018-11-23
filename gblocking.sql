@@ -1,0 +1,2 @@
+select DECODE( block, 0, '       ','YES    ') BLOCKER,DECODE( block, 0, 'YES    ','       ') WAITER,INST_ID, SID, TYPE, ID1, ID2, LMODE, REQUEST, CTIME, BLOCK from gv$lock where (ID1,ID2,TYPE) in (select ID1,ID2,TYPE from gv$lock where request>0) order by id1,id2,waiter
+/

@@ -1,0 +1,8 @@
+Verificação de logs --------------------> Verificação de Logs.sql
+Garantia dos backups -------------------> ValidaBackups-Full e Log 	DEVERÁ SER SCHEDULADA
+Gráficos e tendências ------------------> iMon
+Integridade objetos no db --------------> DBCC CHECKDB				DEVERÁ SER SCHEDULADA
+Necessidade de rebuilds > 1024 MB ------> BigIndexLastRebuild.sql	Validar se ainda precisamos verificar os Indices
+Análise das Top BadQuerys --------------> TopExpensiveQueries.sql
+Data da última abertura ----------------> UltimosStarts.sql
+Análise de incidentes ------------------> OTRS

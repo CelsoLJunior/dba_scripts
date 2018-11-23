@@ -1,0 +1,19 @@
+Log:
+
+	Nenhuma ocorrência relevante.
+	
+Backups:
+
+	Backup de Log: 20 em 20 minutos	(Sem problemas nos ultimos 2  meses);
+	Backup Full  : Diário			(Todos os backups aos DOMINGOS estão falhando);
+
+Integridade objetos no db
+	
+	Integridade do banco ok. Última verificação em 2016-04-04 20:43:51
+	dbi_dbccLastKnownGood	2016-04-04 20:43:51.800
+	
+	
+Necessidade de rebuild nos “big indexes”
+	
+	Não foram encontrados nenhum dos big indices fragmentados.
+		

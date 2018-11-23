@@ -1,0 +1,17 @@
+Log:
+
+Nenhuma ocorrência relevante.
+
+Backups:
+
+Backup de Log: 30 em 30 minutos	(Sem problemas nos ultimos 2  meses);
+Backup Full  : Diário			(Todos os backups aos DOMINGOS estão falhando);
+
+Integridade objetos no db
+	
+	Integridade do banco ok. Última verificação em 2016-04-04 20:43:51
+	dbi_dbccLastKnownGood	2016-04-05 20:54:19.327
+
+Necessidade de rebuild nos “big indexes”
+
+	Planilha: SQLCLS01-Necessidade-Rebuilds.xlsx

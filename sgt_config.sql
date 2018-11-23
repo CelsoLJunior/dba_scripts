@@ -1,0 +1,1 @@
+select * from system.imm$sgt_tbs_config_folga;
